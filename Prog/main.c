@@ -6,10 +6,10 @@
 int main() {
 
     int graph[VERTICES][VERTICES] = {
-            {10, 53, 12, 72},
-            {45, 20, 32, 14},
-            {25, 33, 30, 71},
-            {100, 21, 11, 30}
+            {1, 2, 3, 4},
+            {5, 6, 7, 8},
+            {9, 10, 11, 12},
+            {13, 13, 15, 16}
     };
 
     int distance[VERTICES][VERTICES];
@@ -24,20 +24,20 @@ int main() {
     unsigned int *best_tour;
     unsigned int cost = traveling_salesman(mat_distances, order, &best_tour);
 
-    printf("Best tour cost: %u\n\n", cost);
+    printf("Best tour cost: %u\n", cost);
 
     printf("Vertices:\t");
     for (int i = 0; i < order; i++) {
-        printf("%u ", best_tour[i]);
+        printf("%u", best_tour[i]);
+        printf("-->");
     }
-    putchar('\n\n');
+    printf("0\n");
 
-    printf("\nEdge weights:\t");
+    printf("Edge weights:\t");
     for (int i = 0; i < order - 1; i++) {
-        printf("%u ", mat_distances[best_tour[i]][best_tour[i + 1]]);
+        printf("%u\t", mat_distances[best_tour[i]][best_tour[i + 1]]);
     }
     printf("%u\n\n", mat_distances[best_tour[order - 1]][0]);
-
 
     free(best_tour);
 
