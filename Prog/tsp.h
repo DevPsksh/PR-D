@@ -18,13 +18,13 @@ static void swap(unsigned int *a, unsigned int *b);
 
 /**
  * Search the permutation of vertices by fixing the start of each tour at vertex 0
- * @param mat_distances
- * @param num_vertices
- * @param best_tour
- * @param best_tour_cost
- * @param partial_tour
- * @param partial_tour_cost
- * @param level
+ * @param mat_distances matrix of distances (2D array)
+ * @param num_vertices number of vertices
+ * @param best_tour 1D array of best vertices
+ * @param best_tour_cost best cost
+ * @param partial_tour temp best tour
+ * @param partial_tour_cost temp best cost
+ * @param level which vertex
  */
 static void traveling_salesman_recursive(const unsigned int **mat_distances, unsigned int num_vertices,
                                          unsigned int *best_tour, unsigned int *best_tour_cost, unsigned int *partial_tour,
