@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Prog.dir/main.c.o"
+  "CMakeFiles/Prog.dir/tsp.c.o"
   "Prog.pdb"
   "Prog"
 )

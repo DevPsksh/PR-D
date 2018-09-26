@@ -83,6 +83,12 @@
 		<Unit filename="/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/main.c">
 			<Option target="Prog"/>
 		</Unit>
+		<Unit filename="/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/tsp.c">
+			<Option target="Prog"/>
+		</Unit>
+		<Unit filename="/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/tsp.h">
+			<Option target="Prog"/>
+		</Unit>
 		<Unit filename="/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

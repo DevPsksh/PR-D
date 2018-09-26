@@ -3,4 +3,4 @@ project(Prog C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Prog main.c)
+add_executable(Prog main.c tsp.c tsp.h)

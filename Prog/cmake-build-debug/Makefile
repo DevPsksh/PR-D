@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/main.c.s
 .PHONY : main.c.s
 
+tsp.o: tsp.c.o
+
+.PHONY : tsp.o
+
+# target to build an object file
+tsp.c.o:
+	$(MAKE) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/tsp.c.o
+.PHONY : tsp.c.o
+
+tsp.i: tsp.c.i
+
+.PHONY : tsp.i
+
+# target to preprocess a source file
+tsp.c.i:
+	$(MAKE) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/tsp.c.i
+.PHONY : tsp.c.i
+
+tsp.s: tsp.c.s
+
+.PHONY : tsp.s
+
+# target to generate assembly for a file
+tsp.c.s:
+	$(MAKE) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/tsp.c.s
+.PHONY : tsp.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tsp.o"
+	@echo "... tsp.i"
+	@echo "... tsp.s"
 .PHONY : help
 
 
