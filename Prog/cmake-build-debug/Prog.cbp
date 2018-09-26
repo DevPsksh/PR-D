@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/floyd_warshall.c">
+			<Option target="Prog"/>
+		</Unit>
+		<Unit filename="/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/floyd_warshall.h">
+			<Option target="Prog"/>
+		</Unit>
 		<Unit filename="/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/main.c">
 			<Option target="Prog"/>
 		</Unit>

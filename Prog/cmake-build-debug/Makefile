@@ -123,6 +123,33 @@ Prog/fast:
 	$(MAKE) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/build
 .PHONY : Prog/fast
 
+floyd_warshall.o: floyd_warshall.c.o
+
+.PHONY : floyd_warshall.o
+
+# target to build an object file
+floyd_warshall.c.o:
+	$(MAKE) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/floyd_warshall.c.o
+.PHONY : floyd_warshall.c.o
+
+floyd_warshall.i: floyd_warshall.c.i
+
+.PHONY : floyd_warshall.i
+
+# target to preprocess a source file
+floyd_warshall.c.i:
+	$(MAKE) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/floyd_warshall.c.i
+.PHONY : floyd_warshall.c.i
+
+floyd_warshall.s: floyd_warshall.c.s
+
+.PHONY : floyd_warshall.s
+
+# target to generate assembly for a file
+floyd_warshall.c.s:
+	$(MAKE) -f CMakeFiles/Prog.dir/build.make CMakeFiles/Prog.dir/floyd_warshall.c.s
+.PHONY : floyd_warshall.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Prog"
+	@echo "... floyd_warshall.o"
+	@echo "... floyd_warshall.i"
+	@echo "... floyd_warshall.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

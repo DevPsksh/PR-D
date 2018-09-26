@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Prog.dir/main.c.o"
   "CMakeFiles/Prog.dir/tsp.c.o"
+  "CMakeFiles/Prog.dir/floyd_warshall.c.o"
   "Prog.pdb"
   "Prog"
 )
