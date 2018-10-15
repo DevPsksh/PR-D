@@ -24,7 +24,7 @@ static void swap(unsigned int *a, unsigned int *b);
  * @param best_tour_cost best cost
  * @param partial_tour temp best tour
  * @param partial_tour_cost temp best cost
- * @param level which vertex
+ * @param level which vertex we deal with
  */
 static void traveling_salesman_recursive(const unsigned int **mat_distances, unsigned int num_vertices,
                                          unsigned int *best_tour, unsigned int *best_tour_cost, unsigned int *partial_tour,
