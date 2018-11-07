@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog
+CMAKE_SOURCE_DIR = /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Prog.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Prog.dir/flags.make
 
 CMakeFiles/Prog.dir/main.c.o: CMakeFiles/Prog.dir/flags.make
 CMakeFiles/Prog.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prog.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prog.dir/main.c.o   -c /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Prog.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prog.dir/main.c.o   -c /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/main.c
 
 CMakeFiles/Prog.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prog.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/main.c > CMakeFiles/Prog.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/main.c > CMakeFiles/Prog.dir/main.c.i
 
 CMakeFiles/Prog.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prog.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/main.c -o CMakeFiles/Prog.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/main.c -o CMakeFiles/Prog.dir/main.c.s
 
 CMakeFiles/Prog.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Prog.dir/main.c.o.provides.build: CMakeFiles/Prog.dir/main.c.o
 
 CMakeFiles/Prog.dir/tsp.c.o: CMakeFiles/Prog.dir/flags.make
 CMakeFiles/Prog.dir/tsp.c.o: ../tsp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Prog.dir/tsp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prog.dir/tsp.c.o   -c /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/tsp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Prog.dir/tsp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prog.dir/tsp.c.o   -c /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/tsp.c
 
 CMakeFiles/Prog.dir/tsp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prog.dir/tsp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/tsp.c > CMakeFiles/Prog.dir/tsp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/tsp.c > CMakeFiles/Prog.dir/tsp.c.i
 
 CMakeFiles/Prog.dir/tsp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prog.dir/tsp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/tsp.c -o CMakeFiles/Prog.dir/tsp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/tsp.c -o CMakeFiles/Prog.dir/tsp.c.s
 
 CMakeFiles/Prog.dir/tsp.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Prog.dir/tsp.c.o.provides.build: CMakeFiles/Prog.dir/tsp.c.o
 
 CMakeFiles/Prog.dir/floyd_warshall.c.o: CMakeFiles/Prog.dir/flags.make
 CMakeFiles/Prog.dir/floyd_warshall.c.o: ../floyd_warshall.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Prog.dir/floyd_warshall.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prog.dir/floyd_warshall.c.o   -c /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/floyd_warshall.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Prog.dir/floyd_warshall.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Prog.dir/floyd_warshall.c.o   -c /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/floyd_warshall.c
 
 CMakeFiles/Prog.dir/floyd_warshall.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Prog.dir/floyd_warshall.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/floyd_warshall.c > CMakeFiles/Prog.dir/floyd_warshall.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/floyd_warshall.c > CMakeFiles/Prog.dir/floyd_warshall.c.i
 
 CMakeFiles/Prog.dir/floyd_warshall.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Prog.dir/floyd_warshall.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/floyd_warshall.c -o CMakeFiles/Prog.dir/floyd_warshall.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/floyd_warshall.c -o CMakeFiles/Prog.dir/floyd_warshall.c.s
 
 CMakeFiles/Prog.dir/floyd_warshall.c.o.requires:
 
@@ -143,7 +143,7 @@ Prog: CMakeFiles/Prog.dir/tsp.c.o
 Prog: CMakeFiles/Prog.dir/floyd_warshall.c.o
 Prog: CMakeFiles/Prog.dir/build.make
 Prog: CMakeFiles/Prog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Prog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Prog"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Prog.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/Prog.dir/clean:
 .PHONY : CMakeFiles/Prog.dir/clean
 
 CMakeFiles/Prog.dir/depend:
-	cd /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/cmake-build-debug /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/cmake-build-debug /Users/ayoubidel/Documents/Workspaces/Project/PR-D/Prog/cmake-build-debug/CMakeFiles/Prog.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/cmake-build-debug /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/cmake-build-debug /Users/ayoubidel/Documents/Workspaces/Github/PR-D/Prog/cmake-build-debug/CMakeFiles/Prog.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Prog.dir/depend
 
